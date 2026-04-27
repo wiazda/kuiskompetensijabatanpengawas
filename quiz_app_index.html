@@ -63,22 +63,273 @@
     <script>
         const questions = [
             {
-                q: "Seorang Kepala Seksi Pengawasan harus memiliki kompetensi 'Advokasi Kebijakan Perpajakan' pada Level 2. Apa indikator utamanya?",
+                q: "Seorang Kepala Seksi Pengawasan harus memiliki kompetensi 'Advokasi Kebijakan Perpajakan' pada Level 2. Apa salah satu indikator utama pada level tersebut?",
                 options: [
-                    { t: "Menyusun strategi advokasi peraturan perpajakan tingkat nasional.", isCorrect: false, r: "Penyusunan strategi makro adalah Level 3 ke atas[cite: 158]." },
-                    { t: "Menyusun program atau rencana kerja, materi, dan instrumen pelaksanaan advokasi.", isCorrect: true, r: "Indikator 2.1 menyatakan kemampuan menyusun rencana kerja dan instrumen alat bantu[cite: 158]." },
-                    { t: "Menjadi sumber rujukan utama.", isCorrect: false, r: "Sumber rujukan utama adalah Level 5[cite: 158]." },
-                    { t: "Mengevaluasi strategi advokasi.", isCorrect: false, r: "Evaluasi strategi adalah Level 4[cite: 158]." }
+                    { t: "Menyusun strategi advokasi peraturan perpajakan tingkat nasional.", isCorrect: false, r: "Penyusunan strategi makro atau nasional biasanya berada pada level kompetensi yang lebih tinggi (Level 3 ke atas)." },
+                    { t: "Menyusun program atau rencana kerja, materi, dan instrumen pelaksanaan advokasi.", isCorrect: true, r: "Indikator 2.1 menyatakan kemampuan menyusun rencana kerja dan instrumen alat bantu pelaksanaan advokasi." },
+                    { t: "Menjadi sumber rujukan utama dalam rangka advokasi kebijakan.", isCorrect: false, r: "Menjadi sumber rujukan utama adalah indikator level ahli atau Level 5." },
+                    { t: "Mengevaluasi strategi advokasi kebijakan perpajakan secara luas.", isCorrect: false, r: "Evaluasi strategi dengan perspektif luas merupakan indikator Level 4." }
                 ]
             },
-            // ... (30 soal yang telah dibuat sebelumnya)
             {
-                q: "Apa target level kompetensi 'Analisis Potensi Pajak' untuk Kepala Seksi Pengawasan?",
+                q: "Dalam unit kompetensi 'Analisis Potensi Pajak', seorang Kepala Seksi Pengawasan dipersyaratkan berada pada Level 3. Apa tindakan yang mencerminkan level ini?",
                 options: [
-                    { t: "Level 1", isCorrect: false, r: "Level 1 adalah tugas pengumpulan data[cite: 168]." },
-                    { t: "Level 2", isCorrect: false, r: "Level 2 adalah penghitungan teknis[cite: 168]." },
-                    { t: "Level 3", isCorrect: true, r: "Target level untuk Kepala Seksi pada unit ini adalah Level 3[cite: 54, 168]." },
-                    { t: "Level 4", isCorrect: false, r: "Level 4 adalah ranah Kepala Kantor[cite: 51, 168]." }
+                    { t: "Mengumpulkan data dan informasi awal untuk analisis potensi.", isCorrect: false, r: "Mengumpulkan data adalah tugas dasar yang berada pada Level 1." },
+                    { t: "Menghitung potensi pajak berdasarkan data yang telah dikumpulkan.", isCorrect: false, r: "Penghitungan teknis berdasarkan data adalah indikator Level 2." },
+                    { t: "Memberikan umpan balik dan menelaah hasil analisis potensi pajak.", isCorrect: true, r: "Indikator Level 3 mencakup evaluasi, pemberian umpan balik, dan penyusunan alternatif rekomendasi hasil analisis." },
+                    { t: "Menentukan langkah strategis kebijakan analisis potensi lintas fungsi.", isCorrect: false, r: "Langkah strategis lintas fungsi merupakan ranah Level 5." }
+                ]
+            },
+            {
+                q: "Bagi Kepala Seksi Pelayanan, kompetensi 'Analisis Dokumen Layanan Perpajakan' berada pada Level 3. Apa indikator kompetensi yang harus dipenuhi?",
+                options: [
+                    { t: "Meneliti kelengkapan dokumen sesuai ketentuan yang berlaku.", isCorrect: false, r: "Meneliti kelengkapan adalah tugas administratif dasar pada Level 1." },
+                    { t: "Melakukan validasi data dan analisis kelayakan dokumen layanan.", isCorrect: false, r: "Validasi dan analisis kelayakan dokumen berada pada Level 2." },
+                    { t: "Mengevaluasi hasil analisis dan memberikan solusi terhadap kendala layanan.", isCorrect: true, r: "Level 3 mencakup evaluasi pemberian layanan dan pemberian solusi atas kendala yang muncul." },
+                    { t: "Merumuskan pengembangan layanan perpajakan lintas fungsi.", isCorrect: false, r: "Perumusan strategis lintas fungsi adalah indikator Level 5." }
+                ]
+            },
+            {
+                q: "Seorang Kepala Subbagian Umum dan Kepatuhan Internal (SUKI) wajib menguasai 'Manajemen SDM ASN' pada Level 3. Manakah yang termasuk indikator level tersebut?",
+                options: [
+                    { t: "Memahami tahap perencanaan dan pengadaan pegawai.", isCorrect: false, r: "Sekadar memahami konsep dasar adalah indikator Level 1." },
+                    { t: "Menyelenggarakan administrasi kepegawaian sesuai petunjuk teknis.", isCorrect: false, r: "Penyelenggaraan administrasi rutin sesuai juknis adalah indikator Level 2." },
+                    { t: "Melakukan pemetaan pegawai, analisis jabatan, dan analisis beban kerja.", isCorrect: true, r: "Indikator 3.1 dan 3.2 mencakup analisis data kepegawaian untuk pemetaan serta penyusunan instrumen ABK dan Anjab." },
+                    { t: "Mengembangkan teori dan kebijakan manajemen SDM secara nasional.", isCorrect: false, r: "Pengembangan kebijakan nasional adalah peran Level 5." }
+                ]
+            },
+            {
+                q: "Pada kompetensi 'Ekstensifikasi Perpajakan', jabatan Kepala Seksi Pengawasan ditargetkan pada Level 3. Apa yang membedakannya dengan Level 2?",
+                options: [
+                    { t: "Level 3 berfokus pada verifikasi dan validasi data calon Wajib Pajak.", isCorrect: false, r: "Verifikasi dan validasi data merupakan indikator Level 2." },
+                    { t: "Level 3 mencakup penentuan sasaran ekstensifikasi dan rencana mitigasi risiko.", isCorrect: true, r: "Indikator 3.2 dan 3.3 secara spesifik menyebutkan penentuan sasaran dan penyusunan rencana berdasarkan mitigasi risiko." },
+                    { t: "Level 3 hanya bertugas menjelaskan prosedur ekstensifikasi.", isCorrect: false, r: "Menjelaskan prosedur adalah indikator dasar Level 1." },
+                    { t: "Level 3 berwenang mengubah sistem kerja ekstensifikasi.", isCorrect: false, r: "Perbaikan atau perubahan sistem kerja adalah indikator Level 4." }
+                ]
+            },
+            {
+                q: "Berdasarkan standar kompetensi, jabatan Kepala Seksi Penjaminan Kualitas Data (PKD) harus menguasai 'Pengelolaan Database' pada level berapa?",
+                options: [
+                    { t: "Level 1", isCorrect: false, r: "Level 1 hanya mencakup pengetahuan mekanisme dasar." },
+                    { t: "Level 2", isCorrect: true, r: "Matriks kompetensi menetapkan Kepala Seksi PKD pada Level 2 untuk unit kompetensi ini." },
+                    { t: "Level 3", isCorrect: false, r: "Meskipun jabatan pengawas, matriks spesifik untuk database pada Kasi PKD berada di Level 2." },
+                    { t: "Level 4", isCorrect: false, r: "Level 4 mencakup evaluasi proses yang biasanya dilakukan pada jenjang administrator." }
+                ]
+            },
+            {
+                q: "Indikator 'Mampu memecahkan masalah teknis operasional dan mengambil keputusan' dalam Manajemen Perkantoran merupakan ciri level kompetensi...",
+                options: [
+                    { t: "Level 2", isCorrect: false, r: "Level 2 lebih fokus pada pelaksanaan sesuai pedoman, bukan pengambilan keputusan masalah teknis." },
+                    { t: "Level 3", isCorrect: true, r: "Indikator 3.3 Manajemen Perkantoran menyebutkan kemampuan memecahkan masalah teknis operasional dan mengambil keputusan." },
+                    { t: "Level 4", isCorrect: false, r: "Level 4 lebih ke arah pemberian rekomendasi perbaikan sistem secara menyeluruh." },
+                    { t: "Level 5", isCorrect: false, r: "Level 5 adalah pengembangan teori dan kebijakan makro." }
+                ]
+            },
+            {
+                q: "Kepala Seksi Pemeriksaan, Penilaian, dan Penagihan (P3) memiliki kompetensi 'Pemeriksaan Pajak' pada Level 3. Apa indikator yang harus ditunjukkan?",
+                options: [
+                    { t: "Melaksanakan wawancara atau permintaan keterangan kepada Wajib Pajak.", isCorrect: false, r: "Kegiatan wawancara lapangan/langsung adalah indikator Level 2." },
+                    { t: "Menyusun Laporan Hasil Pemeriksaan (LHP) setelah pembahasan akhir.", isCorrect: true, r: "Indikator 3.2 mencakup penyusunan LHP pasca pembahasan temuan dengan Wajib Pajak." },
+                    { t: "Mengumpulkan data internal dan eksternal untuk bahan pemeriksaan.", isCorrect: false, r: "Pengumpulan data adalah persiapan dasar pada Level 1." },
+                    { t: "Menentukan fokus audit dan teknik pemeriksaan dalam Rencana Pemeriksaan.", isCorrect: false, r: "Penentuan fokus audit dan pengendalian mutu berada pada Level 4." }
+                ]
+            },
+            {
+                q: "Seorang Kepala Seksi Pelayanan harus mampu melakukan kompetensi 'Penyusunan Informasi Publik' pada Level 3, yang mencakup...",
+                options: [
+                    { t: "Mencari dan mengolah data informasi berdasarkan isu prioritas.", isCorrect: false, r: "Mengolah bahan informasi berdasarkan isu adalah indikator Level 2." },
+                    { t: "Menetapkan target audience dan mendistribusikan informasi yang telah disusun.", isCorrect: true, r: "Indikator Level 3 mencakup penetapan audiens, pengemasan informasi, dan pendistribusiannya." },
+                    { t: "Membuat rekomendasi penyajian informasi yang tepat sasaran.", isCorrect: false, r: "Rekomendasi perbaikan penyajian berada pada Level 4." },
+                    { t: "Mengembangkan kebijakan penyusunan informasi publik nasional.", isCorrect: false, r: "Pengembangan kebijakan nasional adalah fungsi Level 5." }
+                ]
+            },
+            {
+                q: "Dalam unit kompetensi 'Penegakan Integritas ASN', Level 3 bagi Kepala Subbagian UKI ditandai dengan kemampuan...",
+                options: [
+                    { t: "Menjelaskan secara rinci perihal integritas ASN kepada stakeholder.", isCorrect: false, r: "Menjelaskan secara rinci kepada stakeholder adalah indikator Level 2." },
+                    { t: "Menganalisis dan menyajikan data penegakan integritas.", isCorrect: false, r: "Analisis dan penyajian data adalah indikator Level 2." },
+                    { t: "Menyusun instrumen tahapan penegakan dan membimbing pegawai lain.", isCorrect: true, r: "Indikator 3.1 dan 3.2 mencakup penyusunan instrumen serta bimbingan kepada pegawai di lingkup organisasi." },
+                    { t: "Menyusun norma standar dan pedoman penegakan integritas.", isCorrect: false, r: "Penyusunan norma standar dan pedoman merupakan Level 4." }
+                ]
+            },
+            {
+                q: "Unit kompetensi 'Analisis Kepatuhan Wajib Pajak' bagi Kepala Seksi Pengawasan berada pada Level 3. Manakah yang benar mengenai indikatornya?",
+                options: [
+                    { t: "Menentukan ketidakpatuhan Wajib Pajak berdasarkan data yang tersedia.", isCorrect: false, r: "Penentuan ketidakpatuhan secara langsung adalah indikator Level 2." },
+                    { t: "Menelaah konsep hasil analisis dan memberikan umpan balik (feedback).", isCorrect: true, r: "Indikator 3.1 dan 3.2 mencakup penelaahan hasil analisis dan pemberian umpan balik." },
+                    { t: "Mengumpulkan informasi dalam rangka pemenuhan kewajiban.", isCorrect: false, r: "Pengumpulan informasi adalah tugas dasar Level 1." },
+                    { t: "Merekomendasikan pilihan sistem kerja prosedur analisis kepatuhan.", isCorrect: false, r: "Rekomendasi sistem kerja berada pada Level 4." }
+                ]
+            },
+            {
+                q: "Manakah pernyataan yang BENAR mengenai standar level kompetensi teknis bagi Jabatan Pengawas secara umum sesuai Gambaran Umum?",
+                options: [
+                    { t: "Level kompetensi teknis jabatan Pengawas adalah 4-3.", isCorrect: false, r: "Rentang 4-3 diperuntukkan bagi Jabatan Administrator." },
+                    { t: "Level kompetensi teknis jabatan Pengawas adalah 3-2.", isCorrect: true, r: "Gambaran umum poin 5 menyatakan level jabatan pengawas adalah 3-2 dengan dominan Level 3." },
+                    { t: "Setiap jabatan pengawas terdiri dari sepuluh unit kompetensi teknis.", isCorrect: false, r: "Setiap jabatan terdiri dari enam unit kompetensi teknis (Poin 1 Gambaran Umum)." },
+                    { t: "Unit kompetensi ditentukan secara acak tanpa melihat tugas fungsi.", isCorrect: false, r: "Unit ditentukan berdasarkan tugas dan fungsi utama jabatan (Poin 3)." }
+                ]
+            },
+            {
+                q: "Kompetensi 'Penatausahaan Penagihan Pajak' Level 3 untuk Kasi P3 mencakup indikator...",
+                options: [
+                    { t: "Melaksanakan kegiatan penatausahaan piutang pajak tepat waktu.", isCorrect: false, r: "Pelaksanaan rutin tepat waktu adalah indikator Level 2." },
+                    { t: "Menyusun laporan kegiatan penatausahaan piutang pajak.", isCorrect: false, r: "Penyusunan laporan operasional adalah indikator Level 2." },
+                    { t: "Mengevaluasi penerapan target dan menyusun rekomendasi penyelesaian masalah.", isCorrect: true, r: "Indikator 3.2 dan 3.3 mencakup evaluasi target serta penyusunan rekomendasi masalah penatausahaan." },
+                    { t: "Memperbaiki kelemahan mekanisme penatausahaan piutang.", isCorrect: false, r: "Perbaikan mekanisme atau sistem kerja berada pada Level 4." }
+                ]
+            },
+            {
+                q: "Kepala Seksi Pelayanan memiliki kompetensi 'Inovasi Pelayanan Publik' pada Level 2. Apa yang harus ia lakukan?",
+                options: [
+                    { t: "Menyusun instrumen pelaksanaan tahapan inovasi.", isCorrect: false, r: "Penyusunan instrumen pelaksanaan inovasi berada pada Level 3." },
+                    { t: "Melakukan analisis, penyajian, dan pemanfaatan data inovasi.", isCorrect: true, r: "Indikator 2.2 Inovasi Pelayanan Publik menyebutkan analisis dan pemanfaatan data inovasi." },
+                    { t: "Merumuskan kebijakan penyelenggaraan inovasi berkelanjutan.", isCorrect: false, r: "Rumusan kebijakan inovasi adalah ranah Level 4." },
+                    { t: "Memberikan bimbingan kepada pegawai lain terkait inovasi.", isCorrect: false, r: "Pemberian bimbingan atau coaching berada pada Level 3." }
+                ]
+            },
+            {
+                q: "Dalam kompetensi 'Manajemen Kinerja Organisasi', Kepala Subbagian UKI berada pada Level 2. Apa indikator utamanya?",
+                options: [
+                    { t: "Mengevaluasi hasil analisis kinerja organisasi.", isCorrect: false, r: "Evaluasi hasil analisis kinerja adalah indikator Level 3." },
+                    { t: "Menyelaraskan indikator kinerja utama (IKU) pada unit kerja.", isCorrect: true, r: "Indikator 2.2 menyebutkan penyelarasan IKU unit kerja sesuai ketentuan." },
+                    { t: "Memberikan solusi terhadap kendala teknis operasional kinerja.", isCorrect: false, r: "Pemberian solusi kendala operasional berada pada Level 3." },
+                    { t: "Menentukan langkah strategis perubahan kondisi manajemen kinerja.", isCorrect: false, r: "Penentuan langkah strategis makro adalah fungsi Level 5." }
+                ]
+            },
+            {
+                q: "Apa kewajiban Kepala Seksi Pelayanan dalam 'Pengelolaan Pengaduan Masyarakat' pada Level 3?",
+                options: [
+                    { t: "Mengidentifikasi tahapan awal dalam pelaksanaan pengelolaan pengaduan.", isCorrect: false, r: "Identifikasi tahapan awal adalah tugas Level 2." },
+                    { t: "Menganalisis langkah-langkah tahapan pengelolaan pengaduan.", isCorrect: false, r: "Analisis tahapan pengelolaan merupakan indikator Level 2." },
+                    { t: "Mengelola pengaduan dan memecahkan masalah teknis operasional yang timbul.", isCorrect: true, r: "Indikator 3.2 dan 3.3 mencakup pengelolaan langsung dan penyelesaian masalah teknis operasional." },
+                    { t: "Menyusun rekomendasi kebijakan nasional terkait pengaduan.", isCorrect: false, r: "Rekomendasi kebijakan nasional adalah Level 4 atau 5." }
+                ]
+            },
+            {
+                q: "Kompetensi 'Profiling Wajib Pajak' Level 3 bagi Kasi Pengawasan menuntut kemampuan untuk...",
+                options: [
+                    { t: "Mengumpulkan data identitas dan kegiatan usaha Wajib Pajak.", isCorrect: false, r: "Pengumpulan data dasar adalah tugas Level 1." },
+                    { t: "Melakukan klasifikasi data sesuai kriteria yang ditentukan.", isCorrect: false, r: "Klasifikasi data profil adalah indikator Level 2." },
+                    { t: "Mengevaluasi hasil analisis data dan memberikan umpan balik (feedback).", isCorrect: true, r: "Indikator 3.1 dan 3.2 mencakup evaluasi hasil analisis profiling dan pemberian umpan balik." },
+                    { t: "Mengembangkan kebijakan strategis profiling secara nasional.", isCorrect: false, r: "Pengembangan kebijakan nasional berada pada Level 5." }
+                ]
+            },
+            {
+                q: "Seorang Kepala Seksi PKD harus menguasai 'Pengelolaan Aplikasi Umum dan Khusus' pada Level 3. Apa contoh tindakannya?",
+                options: [
+                    { t: "Menjelaskan fungsi aplikasi kepada pengguna.", isCorrect: false, r: "Menjelaskan fungsi aplikasi kepada user adalah indikator Level 1." },
+                    { t: "Mengoperasikan fitur logging dan alert pada aplikasi.", isCorrect: false, r: "Pengoperasian fitur teknis seperti logging adalah Level 2." },
+                    { t: "Memantau kinerja aplikasi dan melakukan pemulihan (recovery) saat insiden.", isCorrect: true, r: "Indikator 3.2 dan 3.4 mencakup pemantauan kinerja resource serta pemulihan aplikasi pasca insiden." },
+                    { t: "Menetapkan kebijakan penganggaran aplikasi di tingkat instansi.", isCorrect: false, r: "Kebijakan penganggaran dan arsitektur aplikasi adalah ranah Level 5." }
+                ]
+            },
+            {
+                q: "Pada kompetensi 'Advokasi Kebijakan Penganggaran', Kepala Subbagian UKI berada pada Level 3. Indikator kuncinya adalah...",
+                options: [
+                    { t: "Mengumpulkan bahan penyusunan kebijakan operasional.", isCorrect: false, r: "Pengumpulan bahan awal adalah tugas Level 1." },
+                    { t: "Melakukan analisis bahan konsep kebijakan operasional.", isCorrect: false, r: "Analisis bahan kebijakan adalah indikator Level 2." },
+                    { t: "Melakukan presentasi efektif agar pemangku kepentingan memahami kebijakan.", isCorrect: true, r: "Indikator 3.2 menyebutkan kemampuan advokasi melalui presentasi yang efektif kepada stakeholder." },
+                    { t: "Mengevaluasi strategi advokasi dalam perspektif yang luas.", isCorrect: false, r: "Evaluasi strategi dengan perspektif luas adalah Level 4." }
+                ]
+            },
+            {
+                q: "Manakah unit kompetensi yang hanya dimiliki oleh jabatan Kepala Seksi Pelayanan dan Kepala Kantor berdasarkan Matriks Kompetensi?",
+                options: [
+                    { t: "Analisis Potensi Pajak", isCorrect: false, r: "Analisis Potensi dimiliki oleh Kasi Pengawasan, PKD, dan Kepala Kantor." },
+                    { t: "Analisis Dokumen Layanan Perpajakan", isCorrect: true, r: "Berdasarkan matriks, unit ini spesifik ditujukan untuk Kasi Pelayanan dan Kepala Kantor." },
+                    { t: "Ekstensifikasi Perpajakan", isCorrect: false, r: "Ekstensifikasi dimiliki oleh Kasi Pengawasan dan Kepala Kantor." },
+                    { t: "Pemeriksaan Pajak", isCorrect: false, r: "Pemeriksaan dimiliki oleh Kasi Pengawasan dan Kasi P3." }
+                ]
+            },
+            {
+                q: "Kompetensi 'Pengelolaan Arsip Dinamis' bagi Kepala Seksi Pelayanan berada pada Level 2. Apa syarat indikatornya?",
+                options: [
+                    { t: "Melakukan pengelolaan arsip aktif di unit kerja Eselon 2.", isCorrect: false, r: "Pengelolaan arsip aktif dasar adalah indikator Level 1." },
+                    { t: "Melaksanakan proses pemberkasan, penentuan indeks, dan pemberian label.", isCorrect: true, r: "Indikator 2.1 mencakup tahapan pemberkasan dari pemeriksaan hingga pelabelan." },
+                    { t: "Mendesain atau merancang proses penyusutan arsip.", isCorrect: false, r: "Desain/rancang proses penyusutan adalah indikator Level 3." },
+                    { t: "Mengevaluasi norma dan standar pengelolaan arsip secara nasional.", isCorrect: false, r: "Evaluasi norma nasional adalah fungsi Level 5." }
+                ]
+            },
+            {
+                q: "Jabatan Kepala Seksi P3 wajib memiliki kompetensi 'Penilaian Bisnis I' pada Level 2. Apa tindakan yang mencerminkan level tersebut?",
+                options: [
+                    { t: "Mengumpulkan data transaksi yang memerlukan penilaian.", isCorrect: false, r: "Pengumpulan data awal penilaian adalah Level 1." },
+                    { t: "Menentukan objek, subjek, dan pendekatan penilaian yang sesuai.", isCorrect: true, r: "Indikator 2.2 mencakup penentuan objek, subjek, dan pendekatan penilaian Bisnis I." },
+                    { t: "Melakukan penilaian Aset Takberwujud (Bisnis II).", isCorrect: false, r: "Penilaian aset takberwujud atau Bisnis II adalah indikator Level 3." },
+                    { t: "Melakukan reviu kaji ulang hasil penilaian aset takberwujud.", isCorrect: false, r: "Reviu kaji ulang hasil penilaian adalah Level 4." }
+                ]
+            },
+            {
+                q: "Indikator 'Mampu melakukan integrasi data dari beberapa sumber berbeda' dalam unit Pengelolaan Database merupakan bagian dari...",
+                options: [
+                    { t: "Level 1", isCorrect: false, r: "Level 1 hanya mengetahui mekanisme, belum melakukan tindakan integrasi." },
+                    { t: "Level 2", isCorrect: true, r: "Indikator 2.5 secara eksplisit menyebutkan kemampuan melakukan integrasi data dari sumber berbeda." },
+                    { t: "Level 3", isCorrect: false, r: "Level 3 berfokus pada pemantauan proses, bukan integrasi teknis datanya." },
+                    { t: "Level 4", isCorrect: false, r: "Level 4 adalah evaluasi kinerja proses database." }
+                ]
+            },
+            {
+                q: "Seorang Kepala Subbagian UKI harus menguasai 'Advokasi Kebijakan Pengelolaan Kekayaan Negara' pada Level 2. Apa indikator kuncinya?",
+                options: [
+                    { t: "Memetakan kebutuhan spesifik pemangku kepentingan.", isCorrect: false, r: "Pemetaan kebutuhan stakeholder adalah indikator Level 1." },
+                    { t: "Menyusun instrumen untuk melaksanakan monitoring dan evaluasi kegiatan.", isCorrect: true, r: "Indikator 2.3 menyebutkan penyusunan instrumen monitoring dan evaluasi kegiatan advokasi." },
+                    { t: "Melakukan monitoring dan evaluasi langkah tindak lanjut perbaikan.", isCorrect: false, r: "Pelaksanaan Monev tindak lanjut perbaikan berada pada Level 3." },
+                    { t: "Menetapkan area perbaikan untuk efektivitas kebijakan operasional.", isCorrect: false, r: "Penetapan area perbaikan strategis adalah Level 4." }
+                ]
+            },
+            {
+                q: "Dalam kompetensi 'Pelaksanaan Tindakan Penagihan Pajak', Kepala Seksi P3 ditargetkan pada Level 3. Apa yang ia lakukan pada level ini?",
+                options: [
+                    { t: "Melaksanakan tindakan penagihan seperti penyitaan atau pemblokiran.", isCorrect: false, r: "Pelaksanaan tindakan langsung di lapangan adalah indikator Level 2." },
+                    { t: "Mengolah data dan informasi pendukung penagihan.", isCorrect: false, r: "Pengolahan data pendukung adalah tugas dasar Level 1." },
+                    { t: "Mengevaluasi rencana penagihan dan mengidentifikasi alternatif solusi masalah.", isCorrect: true, r: "Indikator 3.1 dan 3.2 mencakup evaluasi rencana penagihan dan pencarian solusi atas kendala penagihan." },
+                    { t: "Menentukan strategi dan prioritas tindakan penagihan nasional.", isCorrect: false, r: "Penentuan strategi prioritas nasional adalah fungsi Level 4." }
+                ]
+            },
+            {
+                q: "Unit kompetensi 'Pengelolaan Jaringan Internet' bagi Kasi PKD berada pada Level 3. Apa indikator kompetensi tersebut?",
+                options: [
+                    { t: "Memasang kabel jaringan internet dan perangkat nirkabel.", isCorrect: false, r: "Tugas fisik seperti memasang kabel adalah indikator Level 1." },
+                    { t: "Mengonfigurasi routing dan alamat protokol perangkat.", isCorrect: false, r: "Konfigurasi routing adalah indikator teknis Level 2." },
+                    { t: "Mendesain topologi jaringan dan menyusun indikator kinerja jaringan.", isCorrect: true, r: "Indikator 3.1 dan 3.3 mencakup desain topologi serta penyusunan IKU jaringan internet." },
+                    { t: "Mengevaluasi keberhasilan pemutakhiran perangkat lunak atau keras.", isCorrect: false, r: "Evaluasi keberhasilan update perangkat adalah Level 4." }
+                ]
+            },
+            {
+                q: "Bagi Kepala Seksi P3, kompetensi 'Pelaksanaan Pemetaan' berada pada Level 4. Apa tindakan yang harus ditunjukkan?",
+                options: [
+                    { t: "Mengubah peta raster menjadi peta berkoordinat.", isCorrect: false, r: "Digitasi dasar atau konversi raster-koordinat adalah Level 2." },
+                    { t: "Menggunakan GPS dengan benar untuk pengukuran lapangan.", isCorrect: false, r: "Penggunaan alat GPS di lapangan adalah Level 3." },
+                    { t: "Melakukan interpretasi peta serta reviu dan kaji ulang laporan pemetaan.", isCorrect: true, r: "Indikator 4.1 mencakup interpretasi dan kaji ulang laporan pemetaan." },
+                    { t: "Membangun sistem terkait analisis spasial nasional.", isCorrect: false, r: "Pembangunan sistem analisis spasial adalah Level 5." }
+                ]
+            },
+            {
+                q: "Indikator 'Memberikan solusi atas permasalahan (strategis) yang terjadi dalam ekstensifikasi' merupakan bagian dari Level...",
+                options: [
+                    { t: "Level 3", isCorrect: false, r: "Level 3 fokus pada evaluasi hasil analisis, belum ke arah solusi masalah strategis." },
+                    { t: "Level 4", isCorrect: true, r: "Indikator 4.3 Ekstensifikasi menyebutkan pemberian solusi atas permasalahan strategis." },
+                    { t: "Level 2", isCorrect: false, r: "Level 2 adalah analisis data operasional." },
+                    { t: "Level 5", isCorrect: false, r: "Level 5 adalah penentuan rencana strategis kebijakan." }
+                ]
+            },
+            {
+                q: "Unit kompetensi 'Pemeriksaan Pajak' bagi Kepala Seksi Pengawasan dipersyaratkan pada Level 2. Apa yang menjadi tugasnya?",
+                options: [
+                    { t: "Menyusun Laporan Hasil Pemeriksaan (LHP).", isCorrect: false, r: "Penyusunan LHP adalah indikator Level 3." },
+                    { t: "Melakukan validasi aspek formal dan material pemeriksaan.", isCorrect: false, r: "Validasi aspek formal/material adalah indikator Level 3." },
+                    { t: "Melaksanakan pemeriksaan data konkret sesuai rencana pemeriksaan.", isCorrect: true, r: "Indikator 2.1 mencakup pelaksanaan pemeriksaan sesuai rencana (untuk Kasi Pengawasan biasanya terkait data konkret)." },
+                    { t: "Mengidentifikasi data untuk kertas kerja pemeriksaan sebelumnya.", isCorrect: false, r: "Identifikasi data kertas kerja adalah persiapan Level 1." }
+                ]
+            },
+            {
+                q: "Berdasarkan matriks, jabatan apa yang memiliki unit kompetensi paling beragam (bersumber dari Kamus Kemenkeu, Kemenpan-RB, hingga ANRI)?",
+                options: [
+                    { t: "Kepala Seksi Pelayanan", isCorrect: false, r: "Kasi Pelayanan mencakup Kamus Kemenkeu dan ANRI (Arsip)." },
+                    { t: "Kepala Seksi PKD", isCorrect: false, r: "Kasi PKD mencakup Kamus Kemenkeu, ANRI, dan Kominfo." },
+                    { t: "Kepala Subbagian Umum dan Kepatuhan Internal", isCorrect: true, r: "Jabatan ini mencakup penganggaran, kekayaan negara, HR (KemenPAN-RB), dan Kamus ANRI." },
+                    { t: "Kepala Seksi Pengawasan", isCorrect: false, r: "Kasi Pengawasan mayoritas bersumber dari Kamus Kemenkeu suburusan perpajakan saja." }
                 ]
             }
         ];
@@ -90,6 +341,7 @@
         function loadQuestion() {
             const container = document.getElementById('question-container');
             container.innerHTML = '';
+            
             const q = questions[currentQuestion];
             const div = document.createElement('div');
             div.className = 'question-card active';
@@ -97,7 +349,9 @@
                 <span class="badge badge-info">Pertanyaan ${currentQuestion + 1} dari ${questions.length}</span>
                 <div class="question-text">${q.q}</div>
                 <div class="options">
-                    ${q.options.map((opt, i) => `<button class="option-btn" onclick="handleAnswer(${i})">${opt.t}</button>`).join('')}
+                    ${q.options.map((opt, i) => `
+                        <button class="option-btn" onclick="handleAnswer(${i})">${opt.t}</button>
+                    `).join('')}
                 </div>
             `;
             container.appendChild(div);
@@ -105,32 +359,64 @@
 
         function handleAnswer(choiceIdx) {
             userResponses.push(choiceIdx);
-            if (questions[currentQuestion].options[choiceIdx].isCorrect) score++;
+            if (questions[currentQuestion].options[choiceIdx].isCorrect) {
+                score++;
+            }
+            
             currentQuestion++;
-            if (currentQuestion < questions.length) loadQuestion(); else showResults();
+            if (currentQuestion < questions.length) {
+                loadQuestion();
+            } else {
+                showResults();
+            }
         }
 
         function showResults() {
             document.getElementById('quiz-view').style.display = 'none';
             document.getElementById('result-view').style.display = 'block';
             document.getElementById('final-score').innerText = score;
+            
+            const comment = document.getElementById('score-comment');
+            if(score === 30) comment.innerText = "Sempurna! Anda menguasai materi dengan sangat baik.";
+            else if(score >= 24) comment.innerText = "Sangat Bagus! Sedikit lagi menuju sempurna.";
+            else if(score >= 18) comment.innerText = "Cukup Bagus. Silakan tinjau kembali beberapa bagian.";
+            else comment.innerText = "Teruslah belajar. Gunakan review di bawah untuk memahami jawaban yang benar.";
+
             const reviewContainer = document.getElementById('review-container');
             questions.forEach((q, i) => {
                 const userChoice = userResponses[i];
                 const isCorrect = q.options[userChoice].isCorrect;
+                
                 const card = document.createElement('div');
                 card.className = `review-card ${isCorrect ? 'correct-card' : 'wrong-card'}`;
+                
                 let optionsHtml = '';
                 q.options.forEach((opt, j) => {
                     let classes = 'option-review';
                     if (opt.isCorrect) classes += ' opt-correct';
                     if (j === userChoice && !opt.isCorrect) classes += ' opt-wrong';
-                    optionsHtml += `<div class="${classes}">${opt.isCorrect ? '✓ ' : (j === userChoice ? '✗ ' : '')}${opt.t}</div>`;
+                    
+                    let prefix = '';
+                    if (opt.isCorrect) prefix = '✓ ';
+                    if (j === userChoice && !opt.isCorrect) prefix = '✗ ';
+                    
+                    optionsHtml += `<div class="${classes}">${prefix}${opt.t}</div>`;
                 });
-                card.innerHTML = `<p style="font-weight:600;">Q${i+1}: ${q.q}</p>${optionsHtml}<div class="rationale"><strong>Penjelasan:</strong> ${q.options.find(o => o.isCorrect).r}</div>`;
+
+                card.innerHTML = `
+                    <div class="badge ${isCorrect ? 'badge-info' : ''}" style="${!isCorrect ? 'background:#fee2e2; color:#991b1b;' : ''}">
+                        Pertanyaan ${i+1}: ${isCorrect ? 'BENAR' : 'SALAH'}
+                    </div>
+                    <p style="font-weight:600; margin-top:5px;">${q.q}</p>
+                    ${optionsHtml}
+                    <div class="rationale">
+                        <strong>Penjelasan:</strong> ${q.options.find(o => o.isCorrect).r}
+                    </div>
+                `;
                 reviewContainer.appendChild(card);
             });
         }
+
         loadQuestion();
     </script>
 </body>
